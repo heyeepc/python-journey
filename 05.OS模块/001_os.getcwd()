@@ -1,0 +1,11 @@
+import os
+
+# 打印出当前工作目录
+current_dir = os.getcwd()
+print(f"当前工作目录是: {current_dir}")
+
+# 假设我有一个文件 'test.txt' 就在这个目录里
+# 那么我就可以直接用相对路径访问它
+# with open('test.txt', 'r') as f:
+#     content = f.read()
+#     print(content)
