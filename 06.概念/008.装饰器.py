@@ -10,3 +10,9 @@ def hello():
     print("Hello")
 
 hello()
+
+def decorator(func):
+    def wrapper(*args, **kwargs):
+        # 可以加任何逻辑
+        return func(*args, **kwargs)
+    return wrapper
